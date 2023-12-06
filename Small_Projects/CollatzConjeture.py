@@ -10,5 +10,5 @@ def collatz(n):
     print(n)
 
 # Test the function
-var=int(input("Put any integer number:"))
+var=int(input("Put any integer number: "))
 collatz(var)

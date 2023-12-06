@@ -8,5 +8,5 @@ def crear_password(longitud):
         password += secrets.choice(Carac)
     return password
 
-NuevoPass = crear_password(12)
-print(NuevoPass)
+NewPass = crear_password(12)
+print(NewPass)
