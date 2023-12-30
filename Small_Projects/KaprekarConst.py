@@ -30,7 +30,7 @@ def main():
             break
         else:
             # ask for a diferent and valid number
-            print("Make sure it is a 4 digit number without repeating.")
+            print("Make sure it is a four-digit number without repeating.")
 
 # in case this algorythm runs as a script we call the main function.
 if __name__ == "__main__":
