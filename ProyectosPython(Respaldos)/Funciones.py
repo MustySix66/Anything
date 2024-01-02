@@ -1,6 +1,4 @@
 # De aquí se van a importar las funciones a la pagina principal
-# Baruc te amo.
-
 def Capital() :
     #Inicializamos las variables en para que, si el usuario desea hacer otra vez la misma operación, los valores de la operación anterior no se guarden
     Cap=0
