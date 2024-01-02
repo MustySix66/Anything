@@ -1,0 +1,8 @@
+num = int(input("som num: "))
+let= str(num)
+lista=list(let)
+print(lista)
+lista.sort()
+print(lista)
+lista.sort(reverse= True)
+print(lista)
