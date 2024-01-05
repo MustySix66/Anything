@@ -5,5 +5,5 @@ def descargar_video(url):
     video = youtube.streams.get_highest_resolution()
     video.download()
 
-# Uso de la función
+# Here goes the video link
 descargar_video('https://www.youtube.com/shorts/mRTkS66Aous')

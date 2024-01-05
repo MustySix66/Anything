@@ -2,7 +2,7 @@ import cv2
 from ascii_magic import AsciiArt
 from PIL import Image
 
-cap = cv2.VideoCapture('prueba.mp4') # Here goes the .mp4 archive
+cap = cv2.VideoCapture('.\Small_Projects\prueba.mp4') # Here goes the .mp4 archive
 frame_count=0
 
 while cap.isOpened():
@@ -12,7 +12,7 @@ while cap.isOpened():
 
     frame_count += 1
     if frame_count %4 == 0:
-        frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BAYER_BG2BGR)
+        frame_rgb = cv2.cvtColor(frame, cv2.COLOR_RGB2HLS_FULL)
         pil_image = Image.fromarray(frame_rgb)
         frame = AsciiArt.from_pillow_image(pil_image)
         frame.to_terminal()
