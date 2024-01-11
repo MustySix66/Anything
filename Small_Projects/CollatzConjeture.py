@@ -13,7 +13,6 @@ def collatz(n):
             n = 3*n + 1
     print(n)
     print("It took ",i, " steps to get into the bucle.")
-    
 
 # Test the function
 var=int(input("Put any integer number: "))
